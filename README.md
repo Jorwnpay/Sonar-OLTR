@@ -1,3 +1,3 @@
-# Sonar_OSR
+# Sonar-OSR
 
 Codes will be available soon...
