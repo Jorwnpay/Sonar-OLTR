@@ -1,4 +1,4 @@
-## BETL
+## Sonar-OLTR
 
 **English|[简体中文](https://github.com/Jorwnpay/Sonar-OLTR/blob/main/README_zh.md)**
 
