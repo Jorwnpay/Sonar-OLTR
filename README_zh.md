@@ -2,7 +2,7 @@
 
 **[English](https://github.com/Jorwnpay/Sonar-OLTR/blob/main/README.md)|简体中文**
 
-这个仓库是文章：Open-set recognition with long-tail sonar images 的实现代码。在本文中，提出了一个声纳图像开放集长尾识别（Sonar-OLTR）的基准，提出了一种简单有效的方法特征增强损失“Push the right Logit Up and the wrong logit Down (PLUD)”，以在训练过程中同时提高模型在开放集识别和长尾识别任务上的表现。
+这个仓库是文章："[Open-set recognition with long-tail sonar images](https://doi.org/10.1016/j.eswa.2024.123495)" 的实现代码。在本文中，提出了一个声纳图像开放集长尾识别（Sonar-OLTR）的基准，提出了一种简单有效的方法特征增强损失“Push the right Logit Up and the wrong logit Down (PLUD)”，以在训练过程中同时提高模型在开放集识别和长尾识别任务上的表现。
 
 ## 运行实验
 
@@ -166,6 +166,13 @@ python auto_run.py --code_dir analyse_result.py --mode analyse
 如果您觉得这份代码对您的研究有帮助，请考虑引用我们：
 
 ```
-TODO...
+@article{jiao2024open,
+  title={Open-set recognition with long-tail sonar images},
+  author={Jiao, Wenpei and Zhang, Jianlei and Zhang, Chunyan},
+  journal={Expert Systems with Applications},
+  pages={123495},
+  year={2024},
+  publisher={Elsevier}
+}
 ```
 
