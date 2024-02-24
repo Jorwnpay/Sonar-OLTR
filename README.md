@@ -2,7 +2,7 @@
 
 **English|[简体中文](https://github.com/Jorwnpay/Sonar-OLTR/blob/main/README_zh.md)**
 
-This repo contains the implementation code for the article "Open-set recognition with long-tail sonar images". The article proposes a benchmark for Sonar Open-set Long Tail Recognition (Sonar-OLTR) and introduces a simple and effective method called "Push the right Logit Up and the wrong logit Down (PLUD)" to enhance features. This method aims to improve the model's performance in both open-set recognition and long-tail recognition tasks during training.
+This repo contains the implementation code for the ESWA 2024 article "[Open-set recognition with long-tail sonar images](https://doi.org/10.1016/j.eswa.2024.123495)". The article proposes a benchmark for Sonar Open-set Long Tail Recognition (Sonar-OLTR) and introduces a simple and effective method called "Push the right Logit Up and the wrong logit Down (PLUD)" to enhance features. This method aims to improve the model's performance in both open-set recognition and long-tail recognition tasks during training.
 
 ## Running the Experiments
 
@@ -166,6 +166,13 @@ python auto_run.py --code_dir analyse_result.py --mode analyse
 If you find this code useful in your research, please consider citing us:
 
 ```
-TODO...
+@article{jiao2024open,
+  title={Open-set recognition with long-tail sonar images},
+  author={Jiao, Wenpei and Zhang, Jianlei and Zhang, Chunyan},
+  journal={Expert Systems with Applications},
+  pages={123495},
+  year={2024},
+  publisher={Elsevier}
+}
 ```
 
